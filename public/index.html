@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Find properties in Jhajjar Sector-6 ,Sector -9 with Swades Property">
+    <meta name="keywords" content="Jhajjar sector-6,Jhajjar sector-9,property,sector map">
+    <meta name="author" content="Swades Property">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>  
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-firestore.js"></script>
+    <link rel="stylesheet" href="./css/magnific-popup.css">
+
+<!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+
+
+
+<!-- Magnific Popup core JS file -->
+<script src="js/jquery.magnific-popup.js"></script>
+   
+  
+    <title>Swades Properties</title>
+</head>
+<body bgcolor="black">
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyDbMW1pkSaFFLDuVzAduZuFCdoIOWsw5Pg",
+      authDomain: "swadesh-dd1ad.firebaseapp.com",
+      projectId: "swadesh-dd1ad",
+      storageBucket: "swadesh-dd1ad.appspot.com",
+      messagingSenderId: "1072287437193",
+      appId: "1:1072287437193:web:91258ff98cd27239fad158"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+    
+       <section class="header">
+         <div class="container-fluid">
+
+             <div id="logo" class="pull-left">
+              <h1> Swa<span>des</span> </h1>  
+             </div>
+            <nav id="navbar">
+                <ul class="nav-menu">
+                      <li class="menu-active"><a href="#body">Home</a></li>
+                      <li><a href="#about">About Us</a></li>
+                      <li><a href="#services">Services</a></li>
+                      <li><a href="#work">Locations</a></li>
+                      <li><a href="#contact">Contact</a></li>
+                </ul>
+                 <div class="menu-icon" class="pull-right" onclick="handleNav()">
+                  <i class="fa fa-bars micon" aria-hidden="true"></i>
+                 </div>
+
+                </nav>
+         </div>
+         
+       </section>
+
+       <div class="sidebar-container">
+        <div class="sidebar">
+          
+            <div class="sidebar-links m-3">
+              
+              <ul>
+                <li class="close-iconnav" onclick="handleClose()"><i class="fa fa-times" aria-hidden="true"></i></li>
+                <li class="menu-active" onclick="handleClose()"><a href="#body">Home</a></li>
+                <li onclick="handleClose()"><a href="#about">About Us</a></li>
+                <li onclick="handleClose()"><a href="#services">Services</a></li>
+                <li onclick="handleClose()"><a href="#work">Locations</a></li>
+                <li onclick="handleClose()"><a href="#contact">Contact</a></li>
+          </ul>
+            </div>
+        </div>
+    </div>
+
+<!--========Intro Section==================-->
+     <section id="intro">
+        
+        <div class="intro-content container">
+            <div class="row">
+              <div class="col">
+               <h1>Find <span> your dream </span> <br>Property.</h1>  
+                
+              </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <a href="#about" class="btn scrollto">Get Started</a>
+                </div>
+              </div>
+        </div>
+
+       
+
+     </section>
+   
+  <section id="about">
+      
+     <div class="container p-4">
+      <div class="section-header-wrapper">
+        <h1 class="section-header mb-4">About Us</h1>
+      </div>
+        <div class="row ">
+            <div class="col-lg-6 about-img ">
+              <a href="./images/abt_final.jpg">
+                <img  class="about-img image-link" src="./images/abt_final.jpg" alt="swades property jhajjar">
+              </a>
+                
+               
+            </div>
+
+            <div class="col-lg-6 content mt-2 mb-4">
+                <h1 style="font-weight: 600;font-size:48px">Who are we?</h1>
+                
+                <p>Swades Properties is a real estate venture based in Jhajjar. We primarily deal in residential property, agricultural lands, renting, in Jhajjar, Bahadurgarh, Gurgaon urban & rural areas.Swades is based on strong group values of Trust, Care & Nurture,
+                   our experts work very hard towards providing our customers the property that they are looking for, at the most afforadable price. Our property expert guide and  provide counsel to our customers throughout the property transaction process making
+                   buying and selling property simple and accessible for everyone.  
+                  </p>
+                <p></p>     
+                
+            </div>
+        </div>
+
+     </div>
+   
+  </section>
+
+  <section id="services">
+      
+    
+    <div class="container p-4 ">
+      <div class="section-header-wrapper">
+        <h1 class="section-header">Services</h1>
+      </div>
+        
+        <div class="row-wrap">
+          <div class="row ">
+
+            <div class="col-lg-6">
+              <div class="box wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="icon"><i class="fa fa-home" aria-hidden="true"></i></div>
+                
+                  <h4 class="title">Buying</h4>
+                  <p class="description">Our team of experts specilizes in helping you find plots in prime locations such as Huda Sector -6, Sector -9 and Farm lands on Gurgaon & Rewari Road for the best price.  </p>
+                
+               </div>
+             </div>
+             <div class="col-lg-6">
+              <div class="box wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="icon"><i class=" fa fa-desktop" aria-hidden="true"></i></div>
+                
+                  <h4 class="title">Selling</h4>
+                  <p class="description"> Similar to buying we also provide assistance in selling your properties for the best price in Huda Sector -6, Sector -9, Farm lands on Gurgaon & Rewari Road. 
+                  </p>
+                
+               </div>
+             </div>
+             <div class="col-lg-6">
+              <div class="box wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="icon"><i class="fa fa-file-text" aria-hidden="true"></i></div>
+                
+                  <h4 class="title">Documenting</h4>
+                  <p class="description">Our team  makes the documentation process smooth. We help you with all HUDA related documents.
+                  </p>
+                
+               </div>
+             </div>
+              <div class="col-lg-6">
+              <div class="box wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="icon"><i class="fa fa-info-circle" aria-hidden="true"></i></div>
+                
+                  <h4 class="title">Renting</h4>
+                  <p class="description">We also provide leasing and renting for houses, floors, office spaces in Jhajjar and nearby area. 
+                  </p>
+                
+               </div>
+             </div>
+  
+           </div>
+        
+        </div>
+        
+    </div>
+  
+ </section>
+ 
+
+ <section id="work">
+
+  <div class="container p-4">
+    <div class="section-header-wrapper">
+      <h1 class="section-header">Work Locations</h1>
+    </div>
+
+    <div class="row ">
+      <div class="col-lg-6 about-img p-4">
+          <a href="./images/sector6.jpg">
+            <img  class="sector-img " src="./images/sector6.jpg" alt="jhajjar sector-6 map" >
+          </a>
+         
+      </div>
+
+      <div class="col-lg-6 content p-4">
+          <h1>Jhajjar Sector-6</h1>
+          
+          <p>Sector 6 is located in the heart of Jhajjar City. It is located between two roads connecting major cities of  Gurgaon & Rewari. It is the first sector allotted in Jhajjar 2008. Since then it's growth has been exponential.It has all  amenities including 24*7 electricity , Gated main Roads, 4 Parks , Proper Water Facility & sewage Facilities .
+            <p class="work_dist">Distance from major Prime Locations:</p>
+            <ul>
+              
+              <li>Nearby Education Institutes : XLRI MBA , Sehwag International School , R.E.D School</li>
+              <li> IGT Airport - 1 hour </li>
+              <li> AIMS Jhajjar - 15 Min</li>
+              <li>Reliance Industries - 10 Min</li>
+             
+            </ul>
+            
+           
+           
+            
+            
+            </p>     
+          
+      </div>
+  </div>
+  <div class="row ">
+   
+
+    <div class="col-lg-6 content p-4">
+        <h1>Jhajjar Sector-9</h1>
+        
+        <p>Sector 9 is the 2nd Sector Launched by Haryana Urban Authority Development in Jhajjar City. It is located near the education HUB of City. Nehru College, ITI all are located 5 min away from the location. This Sector is still in the developing phase but the amenities are available including water , sewerage , electricity , rain water discharge etc.
+
+          <p class="work_dist">Distance from major Prime Locations:</p>
+          <ul>
+            <li> PGIMS Rohtak - 40 Min</li>
+            <li>GITM College - 20 Min</li>
+            <li>AIMS Jhajjar - 10 Min</li>
+            <li> Police Line - 15 Min</li>
+            <li>Bahadurgarh City - 25 min</li>
+          </ul>
+          
+          </p>     
+        
+    </div>
+    <div class="col-lg-6 about-img p-4">
+      <a href="./images/sector9.jpg">
+        <img  class="sector-img" src="./images/sector9.jpg" alt="jhajjar sector-9 map">
+      </a>
+     
+    </div>
+</div>
+  </div>
+</section>
+
+
+<section id="contact" class="wow fadeInUp">
+  <div class="container">
+  
+    <div class="section-header-wrapper">
+      <h1 class="section-header">Contact Us</h1>
+    </div>
+      
+     
+    
+
+        <div class="row contact-info">
+
+              <div class="col-md-4">
+                <div class="contact-address">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <h3>Address</h3>
+                  <address>Sector -6 Jhajjar, Haryana</address>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="contact-phone">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <h3>Phone Number</h3>
+                  <p><a href="tel:+155895548855">+91 8760022223</a></p>
+                  <p><a href="tel:+155895548855">+91 8760022224</a></p>
+
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="contact-email">
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                  <h3>Email</h3>
+                  <p><a href="mailto:info@example.com">Propertiseswades@gmail.com</a></p>
+                </div>
+              </div>
+
+          </div>
+        <!----Contact us FORM-->
+        <div class="container">
+          <div class="form">
+            <div id="sendmessage">Your message has been sent. Thank you!</div>
+            <div id="errormessage"></div>
+            <form action="" method="post" role="form" class="contactForm">
+              <div class="form-row row">
+                <div class="form-group col-lg-6">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group col-lg-6">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validation"></div>
+                </div>
+              </div>
+             
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validation"></div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+       </div>
+      </section>
+<!--==========================
+    Pop up Form
+  ============================-->
+  <button class="open-button" onclick="openForm()"><i class="fa fa-comment" aria-hidden="true"></i></button>
+      <div class="form-popup" id="myForm">
+        <div class="heading">
+         <div class="pull-left"><h4>Enquire Now</h4></div>
+          <div class="close-icon" onclick="closeForm()"><i class="fa fa-times" aria-hidden="true"></i></div>
+
+        </div>
+        <form  class="form-container" name="popup">
+      
+          <h6>Please fill in the details below and we will get in touch with you shortly.</h6>
+          <input type="text" placeholder="Enter your name" name="name" maxlength="25" required>
+           <div class="mobile">
+          
+           <input type="text" placeholder="Enter your mobile no." name="mobile" required>
+           <textarea rows="3" type="text" placeholder="What are you looking for?" name="msg" required></textarea>
+         </div>
+          
+           
+        </form>
+        <button  class="btn" onclick="adddata()">Send Message</button>
+      </div>
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>Swades Properties</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!--
+         
+        -->
+       
+      </div>
+    </div>
+  </footer><!-- #footer -->
+  
+  <script src="js/script.js" ></script>
+
+</body>
+</html>
